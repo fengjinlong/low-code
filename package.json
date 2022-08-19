@@ -1,0 +1,38 @@
+{
+  "name": "lowcodevisualization",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "cross-env NODE_ENV=production_1 vue-cli-service build",
+    "build2": "cross-env NODE_ENV=production_2 vue-cli-service build"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.26.1",
+    "codemirror": "^5.65.2",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "echarts": "^5.3.1",
+    "html2canvas": "^1.4.1",
+    "js-pinyin": "^0.1.9",
+    "less": "^4.1.2",
+    "less-loader": "^6.2.0",
+    "mitt": "^3.0.0",
+    "normalize.css": "^8.0.1",
+    "v-viewer": "^3.0.10",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vue3-colorpicker": "^2.0.4",
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}
